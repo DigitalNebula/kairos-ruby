@@ -1,4 +1,4 @@
-require 'Base64'
+require 'base64'
 module KairosRuby
   class Subject < RestResource
     def self.enroll(image, subject_id, gallery_name)
